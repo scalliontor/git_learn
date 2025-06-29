@@ -3,19 +3,18 @@
 **Cấu hình cơ bản:**
 Sau khi cài đặt, người dùng cần thiết lập thông tin người dùng và các tùy chọn cơ bản. Thông tin
 này sẽ được gắn với mỗi commit người dùng thực hiện:
-    - **Thiết lập tên người dùng:**
-    bash git config --global user.name "Tên Của Người Dùng"
-    - **Thiết lập email người dùng**: bash git config --global user.email "email@example.com"
-    - **Cấu hình trình soạn thảo mặc định (ví dụ: VS Code)**: bash git config --global core.editor "code --wait"
-    - **Bật màu sắc cho đầu ra Git**: bash git config --global color.ui auto
+- Thiết lập tên người dùng :bash git config --global user.name "Tên Của Người Dùng"
+- Thiết lập email người dùng: bash git config --global user.email "email@example.com"
+- Cấu hình trình soạn thảo mặc định (ví dụ: VS Code): bash git config --global core.editor "code --wait"
+- Bật màu sắc cho đầu ra Git: bash git config --global color.ui auto
 
 **Thiết lập Alias hữu ích:**
 Alias (bí danh) giúp người dùng tạo các lệnh tắt cho các câu lệnh Git thường dùng, tiết kiệm thời
 gian và công sức:
-    - **git status thành git st** : bash git config --global alias.st status
-    - **git checkout thành git co** : bash git config --global alias.co checkout
-    - **git branch thành git br** : bash git config --global alias.br branch
-    - **git commit -m thành git cm** : bash git config --global alias.cm "commit -m"
+- git status thành git st : bash git config --global alias.st status
+- git checkout thành git co : bash git config --global alias.co checkout
+- git branch thành git br : bash git config --global alias.br branch
+- git commit -m thành git cms : bash git config --global alias.cm "commit -m"
 
 
 **Xem lịch sử commit:**
